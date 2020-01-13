@@ -1,0 +1,15 @@
+*.o
+*.so
+*.a
+*.swp
+Makefile
+.svn
+*~
+.idea/
+.vscode/
+.baidu.*
+.bcloud.cache
+.bcloud.flatten.workspace
+output/
+cmake-build-debug/
+build/
