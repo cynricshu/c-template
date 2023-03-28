@@ -19,3 +19,11 @@ add_library(c++template
         ${SRC_COMMON}
         ${SRC_WEB}
         )
+
+add_executable(cartesian_product
+        src/demo/cartesian_product.cpp)
+add_executable(time
+        src/demo/time.cpp)
+add_executable(rvo
+        src/demo/rvo.cpp )
+target_compile_options(rvo PUBLIC -fno-elide-constructors)
